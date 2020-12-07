@@ -4,7 +4,7 @@ This repo is the feeder repo for my Senior Semester Project (BTP) at IIT Dharwad
 ## YouTube Gameplays
 Cross Entropy Method on Simple Tetris (20x10) - https://youtu.be/_TyaqHpXj8A
 
-Monte-Carlo Tree Search on Snake - https://www.youtube.com/watch?v=BKhdi9BVZvw
+Monte-Carlo Tree Search on Snake - https://www.youtube.com/watch?v=cSrcp2q0Guk
 
 Table-based Q-learning on Snake - https://www.youtube.com/watch?v=LRqSywQ7zlg
 
