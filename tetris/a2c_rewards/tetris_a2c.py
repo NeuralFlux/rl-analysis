@@ -18,7 +18,7 @@ from pathlib import Path
 
 
 # height, width and possible actions for the agent
-HEIGHT, WIDTH = 20, 10
+HEIGHT, WIDTH = 20, 6
 ACTION_LIST = [(x, n_rotations) for n_rotations in range(4) for x in range(WIDTH)]
 ACTION_LIST.remove((WIDTH - 1, 0))
 ACTION_LIST.remove((WIDTH - 1, 2))
@@ -44,16 +44,6 @@ def discount_rewards(reward):
     # exit()
 
     return discounted_r
-
-
-def choose_apt_penalty(rewards, surv_steps):
-    if surv_steps < 10:
-        return -sum(rewards)
-    elif surv_steps < 100:
-        return -sum(rewards[-10:])
-    else:
-        return -sum(rewards[-30:])
-
 
 def log(filename, string):
     with open(filename, 'a+') as logger:
@@ -197,10 +187,6 @@ class A2CAgent(object):
                 # run one step
                 next_state, reward, done, _ = env.step(action)
                 next_state = torch.tensor(next_state, dtype=torch.float32)
-
-                # custom penalty for game termination
-                # if done:
-                #     reward = choose_apt_penalty(self.memory['rewards'], steps)
 
                 self.remember(state, reward)
                 state = next_state

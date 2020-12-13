@@ -269,7 +269,7 @@ class Tetris:
             self.new_piece()
         if self.gameover:
             self.score -= 2
-            reward = -25
+            reward = -10
 
         return (
             next_state,
