@@ -1,5 +1,10 @@
 # rl-analysis
-This repo is the feeder repo for my Senior Semester Project (BTP) at IIT Dharwad. It contains all the code, gameplays and results mentioned in the [report](https://github.com/NeuralFlux/rl-analysis/blob/main/Report.pdf).
+This repo is the feeder repo for my Senior Semester Project (BTech Project) at IIT Dharwad. It contains all the code, gameplays and results mentioned in the [report](https://github.com/NeuralFlux/rl-analysis/blob/main/Report.pdf).
+
+Each folder contains the following
+1. The code for each agent mentioned in the report
+2. The environment and requirements to run the code
+3. The checkpoints/weights for agents (if applicable)
 
 ## YouTube Gameplays
 Cross Entropy Method on Simple Tetris (20x10) - https://youtu.be/_TyaqHpXj8A
