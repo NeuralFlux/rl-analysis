@@ -1,5 +1,5 @@
 # rl-analysis
-This repo is the feeder repo for my Senior Semester Project (BTech Project) at IIT Dharwad. It contains all the code, gameplays and helper files mentioned in the [report](https://github.com/NeuralFlux/rl-analysis/blob/main/Report.pdf).
+This repo is the feeder repo for my Senior Semester Project (BTech Project) at IIT Dharwad. It contains all the code, weights and helper files mentioned in the [report](https://github.com/NeuralFlux/rl-analysis/blob/main/Report.pdf).
 
 Each folder contains the following
 1. The code for each agent mentioned in the report
