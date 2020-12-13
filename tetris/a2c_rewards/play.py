@@ -20,7 +20,7 @@ import cv2
 
 
 # height, width and possible actions for the agent
-HEIGHT, WIDTH = 20, 10
+HEIGHT, WIDTH = 20, 6
 ACTION_LIST = [(x, n_rotations) for n_rotations in range(4) for x in range(WIDTH)]
 ACTION_LIST.remove((WIDTH - 1, 0))
 ACTION_LIST.remove((WIDTH - 1, 2))
